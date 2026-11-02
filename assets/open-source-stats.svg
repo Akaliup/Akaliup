@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="284" viewBox="0 0 520 284" role="img" aria-label="Open source contribution summary: 4 merged, 20 in review, 13 issues filed">
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#a371f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="520" height="284" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <text x="28" y="40" fill="#e6edf3" font-size="14" font-weight="600" letter-spacing="1.6"
+        font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">OPEN SOURCE</text>
+  <text x="28" y="58" fill="#6e7681" font-size="11"
+        font-family="ui-monospace, SFMono-Regular, Menlo, monospace">upstream repos, not my own</text>
+  <text x="28" y="96" fill="#e6edf3" font-size="30" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">4</text><text x="28" y="112" fill="#8b949e" font-size="11" letter-spacing="1.2" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">MERGED</text>
+  <text x="146" y="96" fill="#e6edf3" font-size="30" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">20</text><text x="146" y="112" fill="#8b949e" font-size="11" letter-spacing="1.2" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">IN REVIEW</text>
+  <text x="282" y="96" fill="#e6edf3" font-size="30" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">13</text><text x="282" y="112" fill="#8b949e" font-size="11" letter-spacing="1.2" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">ISSUES</text>
+  <line x1="28" y1="122" x2="492" y2="122" stroke="#21262d"/>
+    <text x="56" y="150" fill="#8b949e" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">crewAI</text>
+  <rect x="196" y="139" width="240" height="9" rx="4.5" fill="#161b22"/>
+  <rect x="196" y="139" width="240" height="9" rx="4.5" fill="url(#bar)"/>
+  <text x="446" y="150" fill="#c9d1d9" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">9</text>
+  <text x="56" y="176" fill="#8b949e" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">gpt-researcher</text>
+  <rect x="196" y="165" width="240" height="9" rx="4.5" fill="#161b22"/>
+  <rect x="196" y="165" width="80" height="9" rx="4.5" fill="url(#bar)"/>
+  <text x="446" y="176" fill="#c9d1d9" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">3</text>
+  <text x="56" y="202" fill="#8b949e" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">agentscope</text>
+  <rect x="196" y="191" width="240" height="9" rx="4.5" fill="#161b22"/>
+  <rect x="196" y="191" width="80" height="9" rx="4.5" fill="url(#bar)"/>
+  <text x="446" y="202" fill="#c9d1d9" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">3</text>
+  <text x="56" y="228" fill="#8b949e" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">browser-use</text>
+  <rect x="196" y="217" width="240" height="9" rx="4.5" fill="#161b22"/>
+  <rect x="196" y="217" width="53" height="9" rx="4.5" fill="url(#bar)"/>
+  <text x="446" y="228" fill="#c9d1d9" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">2</text>
+  <text x="56" y="254" fill="#8b949e" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">agno</text>
+  <rect x="196" y="243" width="240" height="9" rx="4.5" fill="#161b22"/>
+  <rect x="196" y="243" width="27" height="9" rx="4.5" fill="url(#bar)"/>
+  <text x="446" y="254" fill="#c9d1d9" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">1</text>
+</svg>
