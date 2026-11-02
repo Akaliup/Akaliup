@@ -55,8 +55,8 @@ upstream as a pull request.
 | [Nano-Collective/nanocoder](https://github.com/Nano-Collective/nanocoder) | Pass git_add paths after -- so leading-dash names and options are not... | [#1945](https://github.com/Nano-Collective/nanocoder/pull/1945) |
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | Fix doc-builder setup typo | [#3100](https://github.com/huggingface/smolagents/pull/3100) |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Run router outcome listeners when a sibling listener pauses for human... | [#8841](https://github.com/crewAIInc/crewAI/pull/8841) |
-| [browser-use/browser-use](https://github.com/browser-use/browser-use) | Fix tab/space mix in langchain example snippet so it parses | [#6259](https://github.com/browser-use/browser-use/pull/6259) |
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | SchemaOptimizer RecursionError on recursive pydantic models | [#6261](https://github.com/browser-use/browser-use/pull/6261) |
+| [browser-use/browser-use](https://github.com/browser-use/browser-use) | Fix tab/space mix in langchain example snippet so it parses | [#6259](https://github.com/browser-use/browser-use/pull/6259) |
 | [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | Preserve dot-prefixed asset names | [#4291](https://github.com/HKUDS/LightRAG/pull/4291) |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Replace deprecated asyncio.iscoroutinefunction with inspect.iscoroutinefunction | [#8863](https://github.com/crewAIInc/crewAI/pull/8863) |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Replace deprecated datetime.utcnow() with naive-UTC datetime.now(timezone.utc) | [#8865](https://github.com/crewAIInc/crewAI/pull/8865) |
