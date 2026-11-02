@@ -11,7 +11,6 @@ multi-store operations, CRM workspaces - and send every bug I hit back
 upstream as a pull request.
 
 <a href="https://github.com/Akaliup?tab=followers"><img src="https://img.shields.io/github/followers/Akaliup?label=Followers&style=for-the-badge&logo=github&color=181717" alt="GitHub followers" /></a>
-<a href="https://komarev.com/ghpvc/?username=Akaliup"><img src="https://komarev.com/ghpvc/?username=Akaliup&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile views" /></a>
 <!-- PR_BADGES:START -->
 <a href="https://github.com/search?q=is%3Apr+author%3AAkaliup+-user%3AAkaliup+is%3Aopen&type=pullrequests"><img src="https://img.shields.io/badge/External_PRs-20-0366d6?style=for-the-badge&logo=github&logoColor=white" alt="External pull requests" /></a>
 <a href="https://github.com/search?q=is%3Apr+author%3AAkaliup+-user%3AAkaliup+is%3Amerged&type=pullrequests"><img src="https://img.shields.io/badge/Merged_PRs-4-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Merged pull requests" /></a>
