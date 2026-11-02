@@ -29,6 +29,9 @@ STATS_SVG = ROOT / "assets" / "open-source-stats.svg"
 START = "<!-- OPEN_SOURCE_CONTRIBUTIONS:START -->"
 END = "<!-- OPEN_SOURCE_CONTRIBUTIONS:END -->"
 
+BADGES_START = "<!-- PR_BADGES:START -->"
+BADGES_END = "<!-- PR_BADGES:END -->"
+
 API = "https://api.github.com"
 
 
@@ -200,20 +203,57 @@ def build_svg(merged: list[dict], review: list[dict], issues: list[dict]) -> str
 """
 
 
+
+def build_badges(merged: list[dict], review: list[dict]) -> str:
+    """Counts live in the badge URL, so they are rewritten on every run."""
+    open_url = (
+        f"https://github.com/search?q=is%3Apr+author%3A{USER}"
+        f"+-user%3A{USER}+is%3Aopen&type=pullrequests"
+    )
+    merged_url = (
+        f"https://github.com/search?q=is%3Apr+author%3A{USER}"
+        f"+-user%3A{USER}+is%3Amerged&type=pullrequests"
+    )
+    open_badge = (
+        "https://img.shields.io/badge/External_PRs-"
+        f"{len(review)}-0366d6?style=for-the-badge&logo=github&logoColor=white"
+    )
+    merged_badge = (
+        "https://img.shields.io/badge/Merged_PRs-"
+        f"{len(merged)}-2ea44f?style=for-the-badge&logo=github&logoColor=white"
+    )
+    return "\n".join(
+        [
+            BADGES_START,
+            f'<a href="{open_url}"><img src="{open_badge}" alt="External pull requests" /></a>',
+            f'<a href="{merged_url}"><img src="{merged_badge}" alt="Merged pull requests" /></a>',
+            BADGES_END,
+        ]
+    )
+
+
+def replace_block(text: str, start: str, end: str, block: str) -> str:
+    head, _, rest = text.partition(start)
+    _, _, tail = rest.partition(end)
+    return head + block + tail
+
+
 def main() -> None:
     token_value = token()
     merged = sorted(external("is:merged", token_value), key=sort_key)
     review = sorted(external("is:open", token_value), key=sort_key)
     issues = sorted(search(f"is:issue author:{USER} -user:{USER}", token_value), key=sort_key)
 
-    block = build_block(merged, review, issues)
     readme = README.read_text(encoding="utf-8")
-    if START not in readme or END not in readme:
-        sys.exit(f"README.md is missing the {START} / {END} markers")
+    for start, end in ((START, END), (BADGES_START, BADGES_END)):
+        if start not in readme or end not in readme:
+            sys.exit(f"README.md is missing the {start} / {end} markers")
 
-    head, _, rest = readme.partition(START)
-    _, _, tail = rest.partition(END)
-    README.write_text(head + block + tail, encoding="utf-8", newline="\n")
+    readme = replace_block(readme, START, END, build_block(merged, review, issues))
+    readme = replace_block(
+        readme, BADGES_START, BADGES_END, build_badges(merged, review)
+    )
+    README.write_text(readme, encoding="utf-8", newline="\n")
 
     STATS_SVG.parent.mkdir(parents=True, exist_ok=True)
     STATS_SVG.write_text(
