@@ -28,11 +28,9 @@ upstream as a pull request.
 
 ## Featured Projects
 
-| Project | What it is | Stack |
-|---|---|---|
-| [ProfitOps-AI](https://github.com/Akaliup/ProfitOps-AI) | Profit intelligence agent: computes margin drift from the real ledger, attributes it to accounting items, then proposes approval-gated simulations with a full audit trail | Python · LangGraph · FastAPI · DeepSeek |
-| [Liteclaw](https://github.com/Akaliup/Liteclaw) | Multi-store operations platform that organises support, sourcing, and ads into role-scoped agents with auditable capability boundaries | TypeScript · Agent runtime |
-| [ai-native-crm](https://github.com/Akaliup/ai-native-crm) | Agent-native CRM workspace where contacts and deals are the state space, and every run exposes tools, approvals, and data changes | TypeScript · MCP · Postgres |
+- ⚡ **[ProfitOps-AI](https://github.com/Akaliup/ProfitOps-AI)** · `Python` `LangGraph` `FastAPI` `DeepSeek` — computes margin drift from the real ledger, attributes it to accounting items, then proposes approval-gated simulations with a full audit trail
+- 🏬 **[Liteclaw](https://github.com/Akaliup/Liteclaw)** · `TypeScript` — organises support, sourcing, and ads into role-scoped agents with auditable capability boundaries
+- 🗂️ **[ai-native-crm](https://github.com/Akaliup/ai-native-crm)** · `TypeScript` `MCP` `Postgres` — keeps contacts and deals as the agent's state model, exposing tools, approvals, and data changes on every run
 
 <!-- OPEN_SOURCE_CONTRIBUTIONS:START -->
 ## Open Source Contributions
