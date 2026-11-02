@@ -18,7 +18,7 @@ import sys
 import urllib.parse
 import urllib.request
 from collections import Counter
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 USER = "Akaliup"
@@ -103,7 +103,7 @@ def table(rows: list[dict]) -> str:
 
 
 def build_block(merged: list[dict], review: list[dict], issues: list[dict]) -> str:
-    stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    stamp = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
     shown = review[:8]
     parts = [START, "## Open Source Contributions", ""]
     parts.append(
