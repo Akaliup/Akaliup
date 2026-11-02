@@ -18,11 +18,11 @@
   <rect x="196" y="139" width="240" height="9" rx="4.5" fill="#161b22"/>
   <rect x="196" y="139" width="240" height="9" rx="4.5" fill="url(#bar)"/>
   <text x="446" y="150" fill="#c9d1d9" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">9</text>
-  <text x="56" y="176" fill="#8b949e" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">gpt-researcher</text>
+  <text x="56" y="176" fill="#8b949e" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">agentscope</text>
   <rect x="196" y="165" width="240" height="9" rx="4.5" fill="#161b22"/>
   <rect x="196" y="165" width="80" height="9" rx="4.5" fill="url(#bar)"/>
   <text x="446" y="176" fill="#c9d1d9" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">3</text>
-  <text x="56" y="202" fill="#8b949e" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">agentscope</text>
+  <text x="56" y="202" fill="#8b949e" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">gpt-researcher</text>
   <rect x="196" y="191" width="240" height="9" rx="4.5" fill="#161b22"/>
   <rect x="196" y="191" width="80" height="9" rx="4.5" fill="url(#bar)"/>
   <text x="446" y="202" fill="#c9d1d9" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">3</text>

@@ -65,6 +65,12 @@ def external(scope: str, token_value: str) -> list[dict]:
     return search(f"is:pr {scope} author:{USER} -user:{USER}", token_value)
 
 
+def sort_key(item: dict) -> tuple[str, int]:
+    """Stable order: the search API's "recently updated" order flips rows
+    between runs, which would commit noise every day."""
+    return (repo_of(item).lower(), item["number"])
+
+
 def one_line(title: str) -> str:
     text = " ".join(title.split())
     if len(text) <= 84:
@@ -196,9 +202,9 @@ def build_svg(merged: list[dict], review: list[dict], issues: list[dict]) -> str
 
 def main() -> None:
     token_value = token()
-    merged = external("is:merged", token_value)
-    review = external("is:open", token_value)
-    issues = search(f"is:issue author:{USER} -user:{USER}", token_value)
+    merged = sorted(external("is:merged", token_value), key=sort_key)
+    review = sorted(external("is:open", token_value), key=sort_key)
+    issues = sorted(search(f"is:issue author:{USER} -user:{USER}", token_value), key=sort_key)
 
     block = build_block(merged, review, issues)
     readme = README.read_text(encoding="utf-8")

@@ -52,14 +52,14 @@ upstream as a pull request.
 
 | Project | Contribution | PR |
 |---|---|---|
-| [Nano-Collective/nanocoder](https://github.com/Nano-Collective/nanocoder) | Pass git_add paths after -- so leading-dash names and options are not... | [#1945](https://github.com/Nano-Collective/nanocoder/pull/1945) |
-| [huggingface/smolagents](https://github.com/huggingface/smolagents) | Fix doc-builder setup typo | [#3100](https://github.com/huggingface/smolagents/pull/3100) |
-| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Run router outcome listeners when a sibling listener pauses for human... | [#8841](https://github.com/crewAIInc/crewAI/pull/8841) |
-| [browser-use/browser-use](https://github.com/browser-use/browser-use) | SchemaOptimizer RecursionError on recursive pydantic models | [#6261](https://github.com/browser-use/browser-use/pull/6261) |
+| [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | Validate session ownership before returning run status | [#3187](https://github.com/agentscope-ai/agentscope/pull/3187) |
+| [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | Preserve missing final newlines in file diffs | [#3244](https://github.com/agentscope-ai/agentscope/pull/3244) |
+| [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | Match newline-containing filenames in glob patterns | [#3386](https://github.com/agentscope-ai/agentscope/pull/3386) |
+| [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | Image generation config read with wrong (uppercase) attribute names - feature... | [#2246](https://github.com/assafelovic/gpt-researcher/pull/2246) |
+| [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | Config-file REASONING_EFFORT silently reset to medium by _set_llm_attributes | [#2247](https://github.com/assafelovic/gpt-researcher/pull/2247) |
+| [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | DOC_PATH and REPORT_SOURCE env overrides ignored by doc path setup | [#2248](https://github.com/assafelovic/gpt-researcher/pull/2248) |
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | Fix tab/space mix in langchain example snippet so it parses | [#6259](https://github.com/browser-use/browser-use/pull/6259) |
-| [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | Preserve dot-prefixed asset names | [#4291](https://github.com/HKUDS/LightRAG/pull/4291) |
-| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Replace deprecated asyncio.iscoroutinefunction with inspect.iscoroutinefunction | [#8863](https://github.com/crewAIInc/crewAI/pull/8863) |
-| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Replace deprecated datetime.utcnow() with naive-UTC datetime.now(timezone.utc) | [#8865](https://github.com/crewAIInc/crewAI/pull/8865) |
+| [browser-use/browser-use](https://github.com/browser-use/browser-use) | SchemaOptimizer RecursionError on recursive pydantic models | [#6261](https://github.com/browser-use/browser-use/pull/6261) |
 
 <sub>…and 12 more open PRs - [see them on GitHub](https://github.com/search?q=is%3Apr+author%3AAkaliup+-user%3AAkaliup+is%3Aopen&type=pullrequests)</sub>
 
