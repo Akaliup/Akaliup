@@ -222,9 +222,15 @@ def build_badges(merged: list[dict], review: list[dict]) -> str:
         "https://img.shields.io/badge/Merged_PRs-"
         f"{len(merged)}-2ea44f?style=for-the-badge&logo=github&logoColor=white"
     )
+    followers_url = f"https://github.com/{USER}?tab=followers"
+    followers_badge = (
+        f"https://img.shields.io/github/followers/{USER}"
+        "?label=Followers&style=for-the-badge&logo=github&color=181717"
+    )
     return "\n".join(
         [
             BADGES_START,
+            f'<a href="{followers_url}"><img src="{followers_badge}" alt="GitHub followers" /></a>',
             f'<a href="{open_url}"><img src="{open_badge}" alt="External pull requests" /></a>',
             f'<a href="{merged_url}"><img src="{merged_badge}" alt="Merged pull requests" /></a>',
             BADGES_END,
