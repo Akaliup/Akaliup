@@ -12,7 +12,7 @@ upstream as a pull request.
 
 <!-- PR_BADGES:START -->
 <a href="https://github.com/Akaliup?tab=followers"><img src="https://img.shields.io/github/followers/Akaliup?label=Followers&style=for-the-badge&logo=github&color=181717" alt="GitHub followers" /></a>
-<a href="https://github.com/search?q=is%3Apr+author%3AAkaliup+-user%3AAkaliup+is%3Aopen&type=pullrequests"><img src="https://img.shields.io/badge/External_PRs-20-0366d6?style=for-the-badge&logo=github&logoColor=white" alt="External pull requests" /></a>
+<a href="https://github.com/search?q=is%3Apr+author%3AAkaliup+-user%3AAkaliup+is%3Aopen&type=pullrequests"><img src="https://img.shields.io/badge/External_PRs-21-0366d6?style=for-the-badge&logo=github&logoColor=white" alt="External pull requests" /></a>
 <a href="https://github.com/search?q=is%3Apr+author%3AAkaliup+-user%3AAkaliup+is%3Amerged&type=pullrequests"><img src="https://img.shields.io/badge/Merged_PRs-4-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Merged pull requests" /></a>
 <!-- PR_BADGES:END -->
 
@@ -36,7 +36,7 @@ upstream as a pull request.
 <!-- OPEN_SOURCE_CONTRIBUTIONS:START -->
 ## Open Source Contributions
 
-> Updated 2026-11-03 · **4** merged · **20** in review · **13** issues filed
+> Updated 2026-11-03 · **4** merged · **21** in review · **14** issues filed
 
 ### Merged Pull Requests
 
@@ -60,9 +60,9 @@ upstream as a pull request.
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | Fix tab/space mix in langchain example snippet so it parses | [#6259](https://github.com/browser-use/browser-use/pull/6259) |
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | SchemaOptimizer RecursionError on recursive pydantic models | [#6261](https://github.com/browser-use/browser-use/pull/6261) |
 
-<sub>…and 12 more open PRs - [see them on GitHub](https://github.com/search?q=is%3Apr+author%3AAkaliup+-user%3AAkaliup+is%3Aopen&type=pullrequests)</sub>
+<sub>…and 13 more open PRs - [see them on GitHub](https://github.com/search?q=is%3Apr+author%3AAkaliup+-user%3AAkaliup+is%3Aopen&type=pullrequests)</sub>
 
-Also reported **13** issues upstream (mostly crewAI, agentscope, MetaGPT).
+Also reported **14** issues upstream (mostly crewAI, agentscope, MetaGPT).
 
 <!-- OPEN_SOURCE_CONTRIBUTIONS:END -->
 
