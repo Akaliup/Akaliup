@@ -12,8 +12,8 @@ upstream as a pull request.
 
 <!-- PR_BADGES:START -->
 <a href="https://github.com/Akaliup?tab=followers"><img src="https://img.shields.io/github/followers/Akaliup?label=Followers&style=for-the-badge&logo=github&color=181717" alt="GitHub followers" /></a>
-<a href="https://github.com/search?q=is%3Apr+author%3AAkaliup+-user%3AAkaliup+is%3Aopen&type=pullrequests"><img src="https://img.shields.io/badge/External_PRs-21-0366d6?style=for-the-badge&logo=github&logoColor=white" alt="External pull requests" /></a>
-<a href="https://github.com/search?q=is%3Apr+author%3AAkaliup+-user%3AAkaliup+is%3Amerged&type=pullrequests"><img src="https://img.shields.io/badge/Merged_PRs-4-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Merged pull requests" /></a>
+<a href="https://github.com/search?q=is%3Apr+author%3AAkaliup+-user%3AAkaliup+is%3Aopen&type=pullrequests"><img src="https://img.shields.io/badge/External_PRs-18-0366d6?style=for-the-badge&logo=github&logoColor=white" alt="External pull requests" /></a>
+<a href="https://github.com/search?q=is%3Apr+author%3AAkaliup+-user%3AAkaliup+is%3Amerged&type=pullrequests"><img src="https://img.shields.io/badge/Merged_PRs-6-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Merged pull requests" /></a>
 <!-- PR_BADGES:END -->
 
 </div>
@@ -36,13 +36,15 @@ upstream as a pull request.
 <!-- OPEN_SOURCE_CONTRIBUTIONS:START -->
 ## Open Source Contributions
 
-> Updated 2026-11-08 · **4** merged · **21** in review · **14** issues filed
+> Updated 2026-11-09 · **6** merged · **18** in review · **14** issues filed
 
 ### Merged Pull Requests
 
 | Project | Contribution | PR |
 |---|---|---|
 | [agno-agi/agno](https://github.com/agno-agi/agno) | Correct FlexAI DeepSeek image-input model id in cookbook README | [#11401](https://github.com/agno-agi/agno/pull/11401) |
+| [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | Image generation config read with wrong (uppercase) attribute names - feature... | [#2246](https://github.com/assafelovic/gpt-researcher/pull/2246) |
+| [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | DOC_PATH and REPORT_SOURCE env overrides ignored by doc path setup | [#2248](https://github.com/assafelovic/gpt-researcher/pull/2248) |
 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | Report video generation failures with a nonzero exit status | [#7034](https://github.com/bytedance/deer-flow/pull/7034) |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Keep runtime input prompts on stderr | [#8297](https://github.com/crewAIInc/crewAI/pull/8297) |
 | [helsome/folio](https://github.com/helsome/folio) | 校验规则保存的 IPC 输入 | [#276](https://github.com/helsome/folio/pull/276) |
@@ -54,13 +56,13 @@ upstream as a pull request.
 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | Validate session ownership before returning run status | [#3187](https://github.com/agentscope-ai/agentscope/pull/3187) |
 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | Preserve missing final newlines in file diffs | [#3244](https://github.com/agentscope-ai/agentscope/pull/3244) |
 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | Match newline-containing filenames in glob patterns | [#3386](https://github.com/agentscope-ai/agentscope/pull/3386) |
-| [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | Image generation config read with wrong (uppercase) attribute names - feature... | [#2246](https://github.com/assafelovic/gpt-researcher/pull/2246) |
-| [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | Config-file REASONING_EFFORT silently reset to medium by _set_llm_attributes | [#2247](https://github.com/assafelovic/gpt-researcher/pull/2247) |
-| [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | DOC_PATH and REPORT_SOURCE env overrides ignored by doc path setup | [#2248](https://github.com/assafelovic/gpt-researcher/pull/2248) |
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | Fix tab/space mix in langchain example snippet so it parses | [#6259](https://github.com/browser-use/browser-use/pull/6259) |
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | SchemaOptimizer RecursionError on recursive pydantic models | [#6261](https://github.com/browser-use/browser-use/pull/6261) |
+| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Accept UTF-8 BOM in custom prompt files | [#8260](https://github.com/crewAIInc/crewAI/pull/8260) |
+| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Normalize downloaded content types | [#8833](https://github.com/crewAIInc/crewAI/pull/8833) |
+| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Run router outcome listeners when a sibling listener pauses for human... | [#8841](https://github.com/crewAIInc/crewAI/pull/8841) |
 
-<sub>…and 13 more open PRs - [see them on GitHub](https://github.com/search?q=is%3Apr+author%3AAkaliup+-user%3AAkaliup+is%3Aopen&type=pullrequests)</sub>
+<sub>…and 10 more open PRs - [see them on GitHub](https://github.com/search?q=is%3Apr+author%3AAkaliup+-user%3AAkaliup+is%3Aopen&type=pullrequests)</sub>
 
 Also reported **14** issues upstream (mostly crewAI, agentscope, MetaGPT).
 
