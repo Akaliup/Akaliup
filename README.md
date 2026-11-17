@@ -12,8 +12,8 @@ upstream as a pull request.
 
 <!-- PR_BADGES:START -->
 <a href="https://github.com/Akaliup?tab=followers"><img src="https://img.shields.io/github/followers/Akaliup?label=Followers&style=for-the-badge&logo=github&color=181717" alt="GitHub followers" /></a>
-<a href="https://github.com/search?q=is%3Apr+author%3AAkaliup+-user%3AAkaliup+is%3Aopen&type=pullrequests"><img src="https://img.shields.io/badge/External_PRs-17-0366d6?style=for-the-badge&logo=github&logoColor=white" alt="External pull requests" /></a>
-<a href="https://github.com/search?q=is%3Apr+author%3AAkaliup+-user%3AAkaliup+is%3Amerged&type=pullrequests"><img src="https://img.shields.io/badge/Merged_PRs-6-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Merged pull requests" /></a>
+<a href="https://github.com/search?q=is%3Apr+author%3AAkaliup+-user%3AAkaliup+is%3Aopen&type=pullrequests"><img src="https://img.shields.io/badge/External_PRs-16-0366d6?style=for-the-badge&logo=github&logoColor=white" alt="External pull requests" /></a>
+<a href="https://github.com/search?q=is%3Apr+author%3AAkaliup+-user%3AAkaliup+is%3Amerged&type=pullrequests"><img src="https://img.shields.io/badge/Merged_PRs-7-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Merged pull requests" /></a>
 <!-- PR_BADGES:END -->
 
 </div>
@@ -36,7 +36,7 @@ upstream as a pull request.
 <!-- OPEN_SOURCE_CONTRIBUTIONS:START -->
 ## Open Source Contributions
 
-> Updated 2026-11-16 · **6** merged · **17** in review · **14** issues filed
+> Updated 2026-11-17 · **7** merged · **16** in review · **14** issues filed
 
 ### Merged Pull Requests
 
@@ -48,6 +48,7 @@ upstream as a pull request.
 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | Report video generation failures with a nonzero exit status | [#7034](https://github.com/bytedance/deer-flow/pull/7034) |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Keep runtime input prompts on stderr | [#8297](https://github.com/crewAIInc/crewAI/pull/8297) |
 | [helsome/folio](https://github.com/helsome/folio) | 校验规则保存的 IPC 输入 | [#276](https://github.com/helsome/folio/pull/276) |
+| [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | Preserve dot-prefixed asset names | [#4291](https://github.com/HKUDS/LightRAG/pull/4291) |
 
 ### Pull Requests In Review
 
@@ -62,7 +63,7 @@ upstream as a pull request.
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Normalize downloaded content types | [#8833](https://github.com/crewAIInc/crewAI/pull/8833) |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Run router outcome listeners when a sibling listener pauses for human... | [#8841](https://github.com/crewAIInc/crewAI/pull/8841) |
 
-<sub>…and 9 more open PRs - [see them on GitHub](https://github.com/search?q=is%3Apr+author%3AAkaliup+-user%3AAkaliup+is%3Aopen&type=pullrequests)</sub>
+<sub>…and 8 more open PRs - [see them on GitHub](https://github.com/search?q=is%3Apr+author%3AAkaliup+-user%3AAkaliup+is%3Aopen&type=pullrequests)</sub>
 
 Also reported **14** issues upstream (mostly crewAI, agentscope, MetaGPT).
 
